@@ -1,0 +1,68 @@
+body{
+    background-image: url("images/splash\ 1.jpg");
+    background-size:cover;
+}
+
+
+.pep_logo{
+    height: 50px;
+    width: 50px;
+}
+
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: space-between;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+ul li{
+    margin: 0 15px;
+    font-weight: 500;
+    color: black;
+}
+.nav_button{
+    display: inline-flex;
+}
+.pepsi-can{
+    width: 50px
+}
+.pepsi-col{
+    margin-left: 300px;
+    height: 500px;
+    width: 300px;
+    margin-top:50px;
+}
+.container{
+    display:flex;
+    padding-left: 50px;
+}
+.text{
+    width: 50%;
+}
+.text h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-top: 100px;
+}
+.text p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font: size 2rem;
+
+}
+.text button{
+    color:black;
+    margin-left: 30%;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    margin-top: 30px;
+    padding:10px;
+    height: 30px;
+}
